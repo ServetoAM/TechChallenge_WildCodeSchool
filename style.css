@@ -1,0 +1,157 @@
+/* Whole Page Section */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Merriweather", serif;
+}
+
+/* Navigation Section*/
+ul {
+  list-style-type: none;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(173, 135, 102, 0.8);
+}
+
+#bannerimg {
+  width: 5%;
+  height: 5%;
+}
+
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  width: 50%;
+}
+
+/*Titre Section*/
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(241, 242, 243, 0.445);
+}
+
+/* Index Section*/
+#bodyindex {
+  background-image: url("assets/argo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#heroes {
+  background-color: rgba(189, 219, 250, 0.8);
+}
+
+/*Royal Family Section*/
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+
+#royal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.portrait {
+  width: 150px;
+  height: 200px;
+}
+
+#bodyroyal {
+  background-image: url("assets/royalbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Royal Assets Section*/
+table,
+td {
+  border: 1px solid #333;
+  background-color: white;
+}
+
+table {
+  height: 250px;
+  width: 800px;
+  margin-top: 50px;
+}
+
+thead,
+tfoot {
+  background-color: gold;
+  color: maroon;
+}
+
+#results {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+#bodyassets {
+  background-image: url("assets/sheep.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 60% bottom 10%;
+}
+
+/* Contact Section*/
+input {
+  width: 70%;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+#bodycontact {
+  background-image: url("assets/paper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+#message {
+  width: 70%;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
